@@ -1,0 +1,5 @@
+int id switchWidget 0x0
+int layout preference_widget_switch 0x0
+int string app_name 0x0
+int string switch_off 0x0
+int string switch_on 0x0

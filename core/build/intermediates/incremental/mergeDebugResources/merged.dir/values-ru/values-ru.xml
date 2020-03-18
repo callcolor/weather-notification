@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Уведомление о погоде</string>
+    <string name="auto_location">Определять автоматически</string>
+    <string name="auto_location_summary_off">Задать местоположение вручную</string>
+    <string name="auto_location_summary_on">Автоматически определять текущее местоположение</string>
+    <string name="builtin_skin">Встроенный вид</string>
+    <string name="builtin_skin_preferences">Настройки встроенного вида</string>
+    <string name="celsius">Градусы Цельсия</string>
+    <string name="celsius_and_fahrenheit">Градусы Цельсия и Фаренгейта С°(F°)</string>
+    <string name="condition_clouds_broken">Облачно</string>
+    <string name="condition_clouds_clear">Ясно</string>
+    <string name="condition_clouds_few">Малооблачно</string>
+    <string name="condition_clouds_overcast">Пасмурно</string>
+    <string name="condition_clouds_scattered">Переменная облачность</string>
+    <string name="condition_cold">Мороз</string>
+    <string name="condition_drizzle">Морось</string>
+    <string name="condition_drizzle_heavy">Сильная морось</string>
+    <string name="condition_drizzle_light">Слабая морось</string>
+    <string name="condition_drizzle_rain">Моросящий дождь</string>
+    <string name="condition_drizzle_rain_heavy">Сильный моросящий дождь</string>
+    <string name="condition_drizzle_rain_light">Слабый моросящий дождь</string>
+    <string name="condition_drizzle_shower">Моросящий дождь</string>
+    <string name="condition_fog">Туман</string>
+    <string name="condition_hail">Град</string>
+    <string name="condition_haze">Мгла</string>
+    <string name="condition_hot">Жара</string>
+    <string name="condition_hurricane">Ураган</string>
+    <string name="condition_mist">Дымка</string>
+    <string name="condition_rain">Дождь</string>
+    <string name="condition_rain_extreme">Экстремальный дождь</string>
+    <string name="condition_rain_freezing">Ледяной дождь</string>
+    <string name="condition_rain_heavy">Сильный дождь</string>
+    <string name="condition_rain_light">Слабый дождь</string>
+    <string name="condition_rain_shower">Ливень</string>
+    <string name="condition_rain_shower_heavy">Сильный ливень</string>
+    <string name="condition_rain_shower_light">Слабый ливень</string>
+    <string name="condition_rain_very_heavy">Очень сильный дождь</string>
+    <string name="condition_sand_whirls">Песчаная/пылевая буря</string>
+    <string name="condition_sleet">Дождь со снегом</string>
+    <string name="condition_smoke">Дым</string>
+    <string name="condition_snow">Снег</string>
+    <string name="condition_snow_heavy">Сильный снег</string>
+    <string name="condition_snow_light">Слабый снег</string>
+    <string name="condition_snow_shower">Ливневый снег</string>
+    <string name="condition_thunderstorm">Гроза</string>
+    <string name="condition_thunderstorm_drizzle">Гроза c моросью</string>
+    <string name="condition_thunderstorm_drizzle_heavy">Гроза с сильной моросью</string>
+    <string name="condition_thunderstorm_drizzle_light">Гроза со слабой моросью</string>
+    <string name="condition_thunderstorm_heavy">Сильная гроза</string>
+    <string name="condition_thunderstorm_light">Слабая гроза</string>
+    <string name="condition_thunderstorm_ragged">Гроза</string>
+    <string name="condition_thunderstorm_rain">Гроза с дождем</string>
+    <string name="condition_thunderstorm_rain_heavy">Гроза с сильным дождем</string>
+    <string name="condition_thunderstorm_rain_light">Гроза со слабым дождем</string>
+    <string name="condition_tornado">Торнадо</string>
+    <string name="condition_tropical_storm">Тропический циклон</string>
+    <string name="condition_windy">Ветренно</string>
+    <string name="enable_notification">Включить уведомление</string>
+    <string name="fahrenheit">Градусы Фаренгейта</string>
+    <string name="fahrenheit_and_celsius">Градусы Фаренгейта и Цельсия F°(C°)</string>
+    <string name="forecast_day_format">%ta</string>
+    <string formatted="false" name="forecast_text">%ta: %s/%s</string>
+    <string formatted="false" name="humidity_caption">Влажность: %d%%</string>
+    <string name="location">Местоположение</string>
+    <string name="location_disabled">Этот метод определения местоположения отключен в Настройках устройства.
+\nОткрыть Настройки, чтобы включить его?</string>
+    <string name="location_gps">По спутникам GPS</string>
+    <string name="location_manual">Вручную</string>
+    <string name="location_network">По сотовым и Wi-Fi сетям</string>
+    <string name="location_type">Определять местоположение</string>
+    <string name="manual_location">Местоположение</string>
+    <string name="notification">Уведомление</string>
+    <string name="notification_back_style">Цвет фона уведомления</string>
+    <string name="notification_forecast_style">Показывать прогноз</string>
+    <string name="notification_icon_style">Показывать значок погоды</string>
+    <string name="notification_style">Тип уведомления</string>
+    <string name="notification_style_black_back">Черный фон</string>
+    <string name="notification_style_black_text">Черный текст</string>
+    <string name="notification_style_custom">Специализированное</string>
+    <string name="notification_style_default_back">Фон по умолчанию</string>
+    <string name="notification_style_standard">Стандартное</string>
+    <string name="notification_style_white_back">Белый фон</string>
+    <string name="notification_style_white_text">Белый текст</string>
+    <string name="notification_text_style">Цвет текста уведомления</string>
+    <string formatted="false" name="notification_ticker">%s %s</string>
+    <string name="open_settings">Открыть Настройки</string>
+    <string name="openweathermap">OpenWeatherMap</string>
+    <string name="owm_api_key">Ключ API</string>
+    <string name="owm_api_key_description">Введите свой ключ API</string>
+    <string name="owm_api_key_description_full">Получите свой ключ API на\n<a href="http://openweathermap.org/appid\">http://openweathermap.org/appid</a></string>
+    <string name="permission_required">Требуются разрешения</string>
+    <string name="permission_required_details">Нажмите здесь, чтобы открыть настройки Уведомления о погоде</string>
+    <string name="refresh_12h">Каждые двенадцать часов</string>
+    <string name="refresh_15m">Каждые пятнадцать минут</string>
+    <string name="refresh_1d">Каждый день</string>
+    <string name="refresh_1h">Каждый час</string>
+    <string name="refresh_2h">Каждые два часа</string>
+    <string name="refresh_30m">Каждые тридцать минут</string>
+    <string name="refresh_3h">Каждые три часа</string>
+    <string name="refresh_4h">Каждые четыре часа</string>
+    <string name="refresh_6h">Каждые шесть часов</string>
+    <string name="refresh_interval">Период обновления</string>
+    <string name="skin">Вид</string>
+    <string name="skin_tap_to_config">Нажмите для настройки</string>
+    <string name="skins">Внешний вид</string>
+    <string name="skins_install">Скачать внешний вид</string>
+    <string name="skins_install_notice">Вам СЛЕДУЕТ УСТАНОВИТЬ \"ШКУРКУ\", чтобы получить больше возможностей. Пожалуйста, выберите \"Скачать внешний вид\" внизу этого экрана.</string>
+    <string name="skins_install_notice_no_market">Вам СЛЕДУЕТ УСТАНОВИТЬ \"ШКУРКУ\", чтобы получить больше возможностей. Найдите приложения с именем \"Weather Notification Skin\" в Android Market и установите их.</string>
+    <string name="skins_preferences">Настройки внешнего вида</string>
+    <string name="start_update_service_permission">запускать сервис обновления погоды</string>
+    <string name="start_update_service_permission_description">Разрешает приложению запускать сервис обновления погоды, чтобы получать новые значения погоды.</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="temp_unit">Единица изменения температуры</string>
+    <string name="unknown_weather">Погода неизвестна</string>
+    <string formatted="false" name="update_date_format">%ta, %&lt;tY-%&lt;tm-%&lt;td</string>
+    <string formatted="false" name="update_time_format">%ta, %&lt;tY-%&lt;tm-%&lt;td %&lt;tH:%&lt;tM</string>
+    <string formatted="false" name="update_time_short">%tH:%&lt;tM</string>
+    <string name="weather">Погода</string>
+    <string name="weather_update_empty">Погода для \"%s\" неизвестна</string>
+    <string name="weather_update_failed">Не удалось обновить погоду: %s</string>
+    <string name="weather_update_no_network">Не удалось обновить погоду: нет подключения к Сети</string>
+    <string name="weather_update_unknown_location">Не удалось обновить погоду: местоположение неизвестно</string>
+    <string formatted="false" name="wind_caption">Ветер: %s, %d %s</string>
+    <string name="wind_dir_e">В</string>
+    <string name="wind_dir_ene">ВСВ</string>
+    <string name="wind_dir_ese">ВЮВ</string>
+    <string name="wind_dir_n">С</string>
+    <string name="wind_dir_ne">СВ</string>
+    <string name="wind_dir_nne">ССВ</string>
+    <string name="wind_dir_nnw">ССЗ</string>
+    <string name="wind_dir_nw">СЗ</string>
+    <string name="wind_dir_s">Ю</string>
+    <string name="wind_dir_se">ЮВ</string>
+    <string name="wind_dir_sse">ЮЮВ</string>
+    <string name="wind_dir_ssw">ЮЮЗ</string>
+    <string name="wind_dir_sw">ЮЗ</string>
+    <string name="wind_dir_w">З</string>
+    <string name="wind_dir_wnw">ЗСЗ</string>
+    <string name="wind_dir_wsw">ЗЮЗ</string>
+    <string name="wind_speed_unit">Единица изменения скорости ветра</string>
+    <string name="wind_speed_unit_kmph">км/ч</string>
+    <string name="wind_speed_unit_mph">миль/ч</string>
+    <string name="wind_speed_unit_mps">м/с</string>
+</resources>

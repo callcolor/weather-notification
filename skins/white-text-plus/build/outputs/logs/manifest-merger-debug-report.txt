@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+MERGED from [:libweatherskin] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweatherskin\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:1-32:12
+MERGED from [:libpreference] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:1-32:12
+MERGED from [:libweather] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:1-32:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\d107c5806233895e5be684de327d381f\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\0160f619c43aa1ecd28ae91ba8993552\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+	package
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:22:7-73
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+	android:sharedUserId
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:24:7-67
+	android:versionName
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:1-60:12
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:21:11-69
+	android:installLocation
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:23:7-37
+uses-permission#ru.gelin.android.weather.notification.START_UPDATE_SERVICE
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:26:22-95
+uses-sdk
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+MERGED from [:libweatherskin] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweatherskin\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [:libweatherskin] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweatherskin\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [:libpreference] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [:libpreference] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [:libweather] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [:libweather] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\d107c5806233895e5be684de327d381f\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\d107c5806233895e5be684de327d381f\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\0160f619c43aa1ecd28ae91ba8993552\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\0160f619c43aa1ecd28ae91ba8993552\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+	android:targetSdkVersion
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:30:5-24
+application
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:32:5-58:19
+MERGED from [:libweatherskin] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweatherskin\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-30:19
+MERGED from [:libweatherskin] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweatherskin\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-30:19
+MERGED from [:libpreference] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-30:19
+MERGED from [:libpreference] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-30:19
+MERGED from [:libweather] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-30:19
+MERGED from [:libweather] C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:5-30:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\d107c5806233895e5be684de327d381f\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\d107c5806233895e5be684de327d381f\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:process
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:35:13-68
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:34:13-45
+	android:icon
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:33:13-42
+	android:allowBackup
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:36:13-39
+receiver#ru.gelin.android.weather.notification.skin.whitetextplus.SkinWeatherNotificationReceiver
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:38:9-44:20
+	android:label
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:40:17-50
+	android:name
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:39:17-64
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:41:13-43:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:42:17-103
+	android:name
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:42:25-101
+activity#ru.gelin.android.weather.notification.skin.whitetextplus.SkinConfigActivity
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:46:9-51:20
+	android:label
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:47:19-59
+	android:name
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:46:19-53
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:48:13-50:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:49:17-111
+	android:name
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:49:25-109
+activity#ru.gelin.android.weather.notification.skin.whitetextplus.WeatherInfoActivity
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:53:9-56:21
+	android:label
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:54:19-50
+	android:theme
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:55:19-54
+	android:name
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:53:19-54

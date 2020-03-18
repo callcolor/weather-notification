@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+	package
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:22:7-44
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:1-27:12
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:21:11-69
+application
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:24:5-25:19
+	android:label
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:24:18-50
+uses-sdk
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml

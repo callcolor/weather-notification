@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2010—2016 Denis Nelubin and others.
+4  ~
+5  ~ This file is part of Weather Notification.
+6  ~
+7  ~ Weather Notification is free software: you can redistribute it and/or modify
+8  ~ it under the terms of the GNU General Public License as published by
+9  ~ the Free Software Foundation, either version 3 of the License, or
+10  ~ (at your option) any later version.
+11  ~
+12  ~ Weather Notification is distributed in the hope that it will be useful,
+13  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+14  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+15  ~ GNU General Public License for more details.
+16  ~
+17  ~ You should have received a copy of the GNU General Public License
+18  ~ along with Weather Notification.  If not, see http://www.gnu.org/licenses/.
+19-->
+20<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+21    package="ru.gelin.android.weather.notification"
+22    android:versionCode="55"
+23    android:versionName="0.3.11" >
+24
+25    <uses-sdk
+25-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:39:5-16
+26        android:minSdkVersion="14"
+26-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:39:5-16
+27        android:targetSdkVersion="26" />
+27-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:39:5-16
+28
+29    <permission
+29-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:25:5-29:51
+30        android:name="ru.gelin.android.weather.notification.START_UPDATE_SERVICE"
+30-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:25:17-90
+31        android:description="@string/start_update_service_permission_description"
+31-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:27:17-90
+32        android:label="@string/start_update_service_permission"
+32-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:26:17-72
+33        android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS"
+33-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:28:17-85
+34        android:protectionLevel="normal" />
+34-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:29:17-49
+35
+36    <uses-permission android:name="ru.gelin.android.weather.notification.START_UPDATE_SERVICE" />
+36-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:31:5-97
+36-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:31:22-95
+37    <uses-permission android:name="android.permission.INTERNET" />
+37-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:32:5-66
+37-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:32:22-64
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+38-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:33:5-80
+38-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:33:22-78
+39    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+39-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:34:5-78
+39-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:34:22-76
+40    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+40-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:35:5-80
+40-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:35:22-78
+41    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+41-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:36:5-78
+41-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:36:22-76
+42    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+42-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:37:5-80
+42-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:37:22-78
+43
+44    <supports-screens />
+44-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:41:5-24
+45
+46    <application
+46-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:43:5-126:19
+47        android:allowBackup="true"
+47-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:45:18-44
+48        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+48-->[com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+49        android:debuggable="true"
+50        android:icon="@drawable/icon"
+50-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:43:18-47
+51        android:label="@string/app_name"
+51-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:44:18-50
+52        android:testOnly="true" >
+53        <activity
+53-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:47:9-58:20
+54            android:name="ru.gelin.android.weather.notification.app.MainActivity"
+54-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:47:19-51
+55            android:label="@string/app_name"
+55-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:48:19-51
+56            android:theme="@android:style/Theme.NoDisplay" >
+56-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:49:19-65
+57            <intent-filter>
+57-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:50:13-53:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:51:17-69
+58-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:51:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:52:17-77
+60-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:52:27-74
+61            </intent-filter>
+62            <intent-filter>
+62-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:54:13-57:29
+63                <action android:name="ru.gelin.android.weather.notification.ACTION_START_MAIN_ACTIVITY" />
+63-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:55:17-106
+63-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:55:25-104
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:56:17-75
+65-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:56:27-73
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:60:9-62:20
+69            android:name="ru.gelin.android.weather.notification.app.MainActivity2"
+69-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:60:19-52
+70            android:label="@string/app_name" >
+70-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:61:19-51
+71        </activity>
+72        <activity
+72-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:64:9-66:20
+73            android:name="ru.gelin.android.weather.notification.app.MainActivity4"
+73-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:64:19-52
+74            android:label="@string/app_name" >
+74-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:65:19-51
+75        </activity>
+76        <activity
+76-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:68:9-72:20
+77            android:name="ru.gelin.android.weather.notification.MainActivity"
+77-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:68:19-47
+78            android:exported="true"
+78-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:70:19-42
+79            android:label="@string/app_name"
+79-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:69:19-51
+80            android:theme="@android:style/Theme.NoDisplay" >
+80-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:71:19-65
+81        </activity>
+82        <activity android:name="ru.gelin.android.weather.notification.app.DebugActivity" />
+82-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:74:9-54
+82-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:74:19-52
+83
+84        <service
+84-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:76:9-81:19
+85            android:name="ru.gelin.android.weather.notification.app.UpdateService"
+85-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:76:18-51
+86            android:permission="ru.gelin.android.weather.notification.START_UPDATE_SERVICE" >
+86-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:77:17-96
+87            <intent-filter>
+87-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:78:13-80:29
+88                <action android:name="ru.gelin.android.weather.notification.ACTION_START_UPDATE_SERVICE" />
+88-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:79:17-107
+88-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:79:25-105
+89            </intent-filter>
+90        </service>
+91
+92        <receiver android:name="ru.gelin.android.weather.notification.app.BootCompletedReceiver" >
+92-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:83:9-87:20
+92-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:83:19-60
+93            <intent-filter>
+93-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:84:13-86:29
+94                <action android:name="android.intent.action.BOOT_COMPLETED" />
+94-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:85:17-78
+94-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:85:25-76
+95            </intent-filter>
+96        </receiver>
+97        <receiver android:name="ru.gelin.android.weather.notification.app.NetworkConnectivityReceiver" >
+97-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:88:9-92:20
+97-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:88:19-66
+98            <intent-filter>
+98-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:89:13-91:29
+99                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+99-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:90:17-78
+99-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:90:25-76
+100            </intent-filter>
+101        </receiver>
+102        <receiver android:name="ru.gelin.android.weather.notification.app.ExternalAppsAvailableReceiver" >
+102-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:93:9-97:20
+102-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:93:19-68
+103            <intent-filter>
+103-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:94:13-96:29
+104                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+104-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:95:17-95
+104-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:95:25-93
+105            </intent-filter>
+106        </receiver>
+107        <receiver android:name="ru.gelin.android.weather.notification.app.PackageChangedReceiver" >
+107-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:98:9-104:20
+107-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:98:19-61
+108            <intent-filter>
+108-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:99:13-103:29
+109                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+109-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:100:17-79
+109-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:100:25-77
+110                <action android:name="android.intent.action.PACKAGE_ADDED" />
+110-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:101:17-77
+110-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:101:25-75
+111                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+111-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:102:17-80
+111-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:102:25-78
+112            </intent-filter>
+113        </receiver>
+114
+115        <!-- Built-in skin -->
+116
+117        <receiver
+117-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:108:9-113:20
+118            android:name="ru.gelin.android.weather.notification.skin.builtin.SkinWeatherNotificationReceiver"
+118-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:108:19-79
+119            android:label="@string/builtin_skin" >
+119-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:109:19-55
+120            <intent-filter>
+120-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:110:13-112:29
+121                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
+121-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:111:17-103
+121-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:111:25-101
+122            </intent-filter>
+123        </receiver>
+124
+125        <activity
+125-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:115:9-120:20
+126            android:name="ru.gelin.android.weather.notification.skin.builtin.SkinConfigActivity"
+126-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:115:19-66
+127            android:label="@string/builtin_skin_preferences" >
+127-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:116:19-67
+128            <intent-filter>
+128-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:117:13-119:29
+129                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
+129-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:118:17-111
+129-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:118:25-109
+130            </intent-filter>
+131        </activity>
+132        <activity
+132-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:122:9-124:56
+133            android:name="ru.gelin.android.weather.notification.skin.builtin.WeatherInfoActivity"
+133-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:122:19-67
+134            android:label="@string/weather"
+134-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:123:19-50
+135            android:theme="@style/Theme.Dialog" />
+135-->C:\Users\callcolor\dev\weather-notification\weather-notification\core\src\main\AndroidManifest.xml:124:19-54
+136    </application>
+137
+138</manifest>

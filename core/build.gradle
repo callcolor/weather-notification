@@ -1,0 +1,84 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$androidGradlePluginVersion"
+    }
+}
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion project.ext.compileSdkVersion
+    buildToolsVersion project.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion project.ext.minSdkVersion
+        targetSdkVersion project.ext.targetSdkVersion
+        versionCode 55
+        versionName '0.3.11'
+    }
+
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError false
+    }
+
+    signingConfigs {
+        release
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+if (project.hasProperty('storeFile')) {
+    android.signingConfigs.release.storeFile = file(storeFile)
+}
+if (project.hasProperty('storePassword')) {
+    android.signingConfigs.release.storePassword = storePassword
+} else {
+    android.signingConfigs.release.storePassword = System.getenv('STORE_PASSWORD')
+}
+if (project.hasProperty('keyAlias')) {
+    android.signingConfigs.release.keyAlias = keyAlias
+}
+if (project.hasProperty('keyPassword')) {
+    android.signingConfigs.release.keyPassword = keyPassword
+} else {
+    android.signingConfigs.release.keyPassword = System.getenv('KEY_PASSWORD')
+}
+
+//android.applicationVariants.all { variant ->
+//    task("${variant.name}Javadoc", type: Javadoc) {
+//        destinationDir = project.file("$project.buildDir/docs/javadoc/$project.name")
+//        source = variant.javaCompileProvider.source
+//
+//        title = "core API"
+//
+//        options.links("http://docs.oracle.com/javase/7/docs/api/");
+//        options.linksOffline("http://d.android.com/reference","${android.sdkDirectory}/docs/reference");
+//
+//        // First add all of your dependencies to the classpath, then add the android jars
+//        classpath += files(variant.javaCompileProvider.classpath.files)
+//        classpath += files(android.getBootClasspath())
+//
+//        // We're excluding these generated files
+//        exclude '**/BuildConfig.java'
+//        exclude '**/R.java'
+//    }
+//}
+
+dependencies {
+    implementation project(':libpreference')
+    implementation project(':libweather')
+    implementation project(':libweatherskin')
+    implementation "com.android.support:support-compat:$androidSupportLibraryVersion"
+
+    androidTestImplementation "com.android.support:support-annotations:$androidSupportLibraryVersion"
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+}

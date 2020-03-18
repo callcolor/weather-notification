@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+	package
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:22:7-41
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:1-29:12
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:21:11-69
+uses-sdk
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+	android:targetSdkVersion
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:24:5-16
+		INJECTED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:26:5-27:19
+	android:label
+		ADDED from C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libweather\src\main\AndroidManifest.xml:26:18-50

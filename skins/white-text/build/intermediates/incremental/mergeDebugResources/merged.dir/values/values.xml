@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notification_back_style_entries">
+        <item>@string/notification_style_default_back</item>
+        <item>@string/notification_style_white_back</item>
+        <item>@string/notification_style_black_back</item>
+    </string-array>
+    <string-array name="notification_back_style_values">
+        <item>DEFAULT_BACK</item>
+        <item>WHITE_BACK</item>
+        <item>BLACK_BACK</item>
+    </string-array>
+    <string-array name="notification_style_entries">
+        <item>@string/notification_style_standard</item>
+        <item>@string/notification_style_custom</item>
+    </string-array>
+    <string-array name="notification_style_values">
+        <item>STANDARD_STYLE</item>
+        <item>CUSTOM_STYLE</item>
+    </string-array>
+    <string-array name="notification_text_style_entries">
+        <item>@string/notification_style_black_text</item>
+        <item>@string/notification_style_white_text</item>
+    </string-array>
+    <string-array name="notification_text_style_values">
+        <item>BLACK_TEXT</item>
+        <item>WHITE_TEXT</item>
+    </string-array>
+    <string-array name="temp_unit_entries">
+        <item>@string/celsius</item>
+        <item>@string/fahrenheit</item>
+        <item>@string/celsius_and_fahrenheit</item>
+        <item>@string/fahrenheit_and_celsius</item>
+    </string-array>
+    <string-array name="temp_unit_values">
+        <item>C</item>
+        <item>F</item>
+        <item>CF</item>
+        <item>FC</item>
+    </string-array>
+    <string-array name="wind_speed_unit_entries">
+        <item>@string/wind_speed_unit_mph</item>
+        <item>@string/wind_speed_unit_kmph</item>
+        <item>@string/wind_speed_unit_mps</item>
+    </string-array>
+    <string-array name="wind_speed_unit_values">
+        <item>MPH</item>
+        <item>KMPH</item>
+        <item>MPS</item>
+    </string-array>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="DEFAULT_NOTIFICATION_TEXT_STYLE">BLACK_TEXT</string>
+    <string name="app_name">Weather notification skin: white text</string>
+    <string name="celsius">Celsius</string>
+    <string name="celsius_and_fahrenheit">Celsius(Fahrenheit)</string>
+    <string name="condition_clouds_broken">Broken clouds</string>
+    <string name="condition_clouds_clear">Sky is clear</string>
+    <string name="condition_clouds_few">Few clouds</string>
+    <string name="condition_clouds_overcast">Overcast clouds</string>
+    <string name="condition_clouds_scattered">Scattered clouds</string>
+    <string name="condition_cold">Cold</string>
+    <string name="condition_drizzle">Drizzle</string>
+    <string name="condition_drizzle_heavy">Heavy drizzle</string>
+    <string name="condition_drizzle_light">Light drizzle</string>
+    <string name="condition_drizzle_rain">Drizzle rain</string>
+    <string name="condition_drizzle_rain_heavy">Heavy drizzle rain</string>
+    <string name="condition_drizzle_rain_light">Light drizzle rain</string>
+    <string name="condition_drizzle_shower">Shower drizzle</string>
+    <string name="condition_fog">Fog</string>
+    <string name="condition_hail">Hail</string>
+    <string name="condition_haze">Haze</string>
+    <string name="condition_hot">Hot</string>
+    <string name="condition_hurricane">Hurricane</string>
+    <string name="condition_mist">Mist</string>
+    <string name="condition_rain">Rain</string>
+    <string name="condition_rain_extreme">Extreme rain</string>
+    <string name="condition_rain_freezing">Freezing rain</string>
+    <string name="condition_rain_heavy">Heavy rain</string>
+    <string name="condition_rain_light">Light rain</string>
+    <string name="condition_rain_shower">Shower rain</string>
+    <string name="condition_rain_shower_heavy">Heavy shower rain</string>
+    <string name="condition_rain_shower_light">Light shower rain</string>
+    <string name="condition_rain_very_heavy">Very heavy rain</string>
+    <string name="condition_sand_whirls">Sand/Dust whirls</string>
+    <string name="condition_sleet">Sleet</string>
+    <string name="condition_smoke">Smoke</string>
+    <string name="condition_snow">Snow</string>
+    <string name="condition_snow_heavy">Heavy snow</string>
+    <string name="condition_snow_light">Light snow</string>
+    <string name="condition_snow_shower">Shower snow</string>
+    <string name="condition_thunderstorm">Thunderstorm</string>
+    <string name="condition_thunderstorm_drizzle">Thunderstorm with drizzle</string>
+    <string name="condition_thunderstorm_drizzle_heavy">Thunderstorm with heavy drizzle</string>
+    <string name="condition_thunderstorm_drizzle_light">Thunderstorm with light drizzle</string>
+    <string name="condition_thunderstorm_heavy">Heavy thunderstorm</string>
+    <string name="condition_thunderstorm_light">Light thunderstorm</string>
+    <string name="condition_thunderstorm_ragged">Ragged thunderstorm</string>
+    <string name="condition_thunderstorm_rain">Thunderstorm with rain</string>
+    <string name="condition_thunderstorm_rain_heavy">Thunderstorm with heavy rain</string>
+    <string name="condition_thunderstorm_rain_light">Thunderstorm with light rain</string>
+    <string name="condition_tornado">Tornado</string>
+    <string name="condition_tropical_storm">Tropical storm</string>
+    <string name="condition_windy">Windy</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="fahrenheit_and_celsius">Fahrenheit(Celsius)</string>
+    <string name="forecast_day_format">%ta</string>
+    <string formatted="false" name="forecast_text">%ta: %s/%s</string>
+    <string formatted="false" name="humidity_caption">Humidity: %d%%</string>
+    <string name="notification">Notification</string>
+    <string name="notification_back_style">Notification background color</string>
+    <string formatted="false" name="notification_content_text">%s/%s   %s   %s</string>
+    <string formatted="false" name="notification_content_title">%s   %s</string>
+    <string name="notification_forecast_style">Show forecasts</string>
+    <string name="notification_icon_style">Show weather icon</string>
+    <string name="notification_style">Notification style</string>
+    <string name="notification_style_black_back">Black background</string>
+    <string name="notification_style_black_text">Black text</string>
+    <string name="notification_style_custom">Customized</string>
+    <string name="notification_style_default_back">Default background</string>
+    <string name="notification_style_standard">Standard</string>
+    <string name="notification_style_white_back">White background</string>
+    <string name="notification_style_white_text">White text</string>
+    <string name="notification_text_style">Notification text color</string>
+    <string formatted="false" name="notification_ticker">%s %s</string>
+    <string name="skin_name">White text</string>
+    <string name="skin_preferences">White text preferences</string>
+    <string name="skin_tap_to_config">Tap to configure</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="switch_off">\u00A0\u25CB\u00A0</string>
+    <string name="switch_on">\u00A0\u2713\u00A0</string>
+    <string name="temp_unit">Temperature units</string>
+    <string name="unknown_weather">Weather is unknown</string>
+    <string formatted="false" name="update_date_format">%ta, %&lt;tY-%&lt;tm-%&lt;td</string>
+    <string formatted="false" name="update_time_format">%ta, %&lt;tY-%&lt;tm-%&lt;td %&lt;tH:%&lt;tM</string>
+    <string formatted="false" name="update_time_short">%tH:%&lt;tM</string>
+    <string name="weather">Weather</string>
+    <string formatted="false" name="wind_caption">Wind: %s, %d %s</string>
+    <string name="wind_dir_e">E</string>
+    <string name="wind_dir_ene">ENE</string>
+    <string name="wind_dir_ese">ESE</string>
+    <string name="wind_dir_n">N</string>
+    <string name="wind_dir_ne">NE</string>
+    <string name="wind_dir_nne">NNE</string>
+    <string name="wind_dir_nnw">NNW</string>
+    <string name="wind_dir_nw">NW</string>
+    <string name="wind_dir_s">S</string>
+    <string name="wind_dir_se">SE</string>
+    <string name="wind_dir_sse">SSE</string>
+    <string name="wind_dir_ssw">SSW</string>
+    <string name="wind_dir_sw">SW</string>
+    <string name="wind_dir_w">W</string>
+    <string name="wind_dir_wnw">WNW</string>
+    <string name="wind_dir_wsw">WSW</string>
+    <string name="wind_speed_unit">Wind speed units</string>
+    <string name="wind_speed_unit_kmph">km/h</string>
+    <string name="wind_speed_unit_mph">mph</string>
+    <string name="wind_speed_unit_mps">m/s</string>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Theme.Dialog" parent="@android:style/Theme.Dialog">
+    </style>
+    <style name="Weather">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Weather.Condition" parent="Weather.Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Weather.CurrentTemp">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Weather.ForecastConditionIcon">
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+    <style name="Weather.Text">
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="WeatherInfo">
+        <!--parent="@android:style/TextAppearance">-->
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="WeatherInfo.AltTemp">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="WeatherInfo.CloseButton">
+        <item name="android:src">@android:drawable/btn_dialog</item>
+    </style>
+    <style name="WeatherInfo.Condition">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="WeatherInfo.ConditionDetails">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>-->
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="WeatherInfo.ConditionIcon">
+        <item name="android:gravity">center</item>
+        <!--<item name="android:layout_margin">5dp</item>-->
+    </style>
+    <style name="WeatherInfo.CurrentTemp">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="WeatherInfo.ForecastCondition">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="WeatherInfo.ForecastConditionIcon">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="WeatherInfo.ForecastRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="WeatherInfo.Location">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>-->
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="WeatherInfo.MultilineText">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="WeatherInfo.Text">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="WeatherInfo.UpdateTime">
+        <!--<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+</resources>

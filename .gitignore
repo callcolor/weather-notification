@@ -1,0 +1,17 @@
+local.properties
+bin/*
+gen/*
+.settings/*
+tmp/*
+local.properties
+build.properties
+upload.credentials.properties
+.idea
+*.bak
+ant.properties
+proguard-project.txt
+.gradle/*
+build/*
+*.iml
+
+core/src/main/res/values/keys.xml

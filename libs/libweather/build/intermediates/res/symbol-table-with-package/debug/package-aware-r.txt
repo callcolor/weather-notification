@@ -1,0 +1,2 @@
+ru.gelin.android.weather
+string app_name

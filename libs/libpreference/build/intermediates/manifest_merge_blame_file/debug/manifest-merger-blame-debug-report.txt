@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2010—2016 Denis Nelubin and others.
+4  ~
+5  ~ This file is part of Weather Notification.
+6  ~
+7  ~ Weather Notification is free software: you can redistribute it and/or modify
+8  ~ it under the terms of the GNU General Public License as published by
+9  ~ the Free Software Foundation, either version 3 of the License, or
+10  ~ (at your option) any later version.
+11  ~
+12  ~ Weather Notification is distributed in the hope that it will be useful,
+13  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+14  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+15  ~ GNU General Public License for more details.
+16  ~
+17  ~ You should have received a copy of the GNU General Public License
+18  ~ along with Weather Notification.  If not, see http://www.gnu.org/licenses/.
+19-->
+20<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+21    package="ru.gelin.android.preference"
+22    android:versionCode="1"
+23    android:versionName="1.0" >
+24
+25    <uses-sdk
+26        android:minSdkVersion="4"
+26-->C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+27        android:targetSdkVersion="26" />
+27-->C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml
+28
+29    <application android:label="@string/app_name" >
+29-->C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:24:5-25:19
+29-->C:\Users\callcolor\dev\weather-notification\weather-notification\libs\libpreference\src\main\AndroidManifest.xml:24:18-50
+30    </application>
+31
+32</manifest>

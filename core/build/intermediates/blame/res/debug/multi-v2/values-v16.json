@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\core\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2,7,13,19,23",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,334,683,1030,1209",
+                        "endLines": "6,12,18,22,25",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "329,678,1025,1204,1303"
+                    },
+                    "to": {
+                        "startLines": "3,8,14,20,24",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "121,400,749,1096,1275",
+                        "endLines": "7,13,19,23,26",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "395,744,1091,1270,1369"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\callcolor\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

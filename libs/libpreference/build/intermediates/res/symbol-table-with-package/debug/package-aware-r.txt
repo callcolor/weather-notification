@@ -1,0 +1,6 @@
+ru.gelin.android.preference
+id switchWidget
+layout preference_widget_switch
+string app_name
+string switch_off
+string switch_on

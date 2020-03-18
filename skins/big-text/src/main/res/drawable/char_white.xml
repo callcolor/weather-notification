@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2010—2016 Denis Nelubin and others.
+  ~
+  ~ This file is part of Weather Notification.
+  ~
+  ~ Weather Notification is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Weather Notification is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Weather Notification.  If not, see http://www.gnu.org/licenses/.
+  -->
+
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/empty"/>
+    <item android:maxLevel="42" android:drawable="@drawable/empty"/>
+    <item android:maxLevel="43" android:drawable="@drawable/u002b_white"/>
+    <item android:maxLevel="44" android:drawable="@drawable/empty"/>
+    <item android:maxLevel="45" android:drawable="@drawable/u002d_white"/>
+    <item android:maxLevel="47" android:drawable="@drawable/empty"/>
+    <item android:maxLevel="48" android:drawable="@drawable/u0030_white"/>
+    <item android:maxLevel="49" android:drawable="@drawable/u0031_white"/>
+    <item android:maxLevel="50" android:drawable="@drawable/u0032_white"/>
+    <item android:maxLevel="51" android:drawable="@drawable/u0033_white"/>
+    <item android:maxLevel="52" android:drawable="@drawable/u0034_white"/>
+    <item android:maxLevel="53" android:drawable="@drawable/u0035_white"/>
+    <item android:maxLevel="54" android:drawable="@drawable/u0036_white"/>
+    <item android:maxLevel="55" android:drawable="@drawable/u0037_white"/>
+    <item android:maxLevel="56" android:drawable="@drawable/u0038_white"/>
+    <item android:maxLevel="57" android:drawable="@drawable/u0039_white"/>
+    <item android:maxLevel="175" android:drawable="@drawable/empty"/>
+    <item android:maxLevel="176" android:drawable="@drawable/u00b0_white"/>
+</level-list>

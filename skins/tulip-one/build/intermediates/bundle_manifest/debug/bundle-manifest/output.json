@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":3,"versionName":"0.1","enabled":true,"outputFile":"skin-tulip-one-debug.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"ru.gelin.android.weather.notification.skin.tulipone","split":"","minSdkVersion":"14"}}]
