@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+id switchWidget
+layout preference_widget_switch
+string app_name
+string switch_off
+string switch_on

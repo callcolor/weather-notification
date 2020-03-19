@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\black-text-plus\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\black-text-plus\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
                     "source": "C:\\Users\\callcolor\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\values-lo\\values-lo.xml",

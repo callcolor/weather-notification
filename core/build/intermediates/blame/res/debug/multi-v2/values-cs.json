@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\core\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\core\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\callcolor\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\values-cs\\values-cs.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\core\\src\\main\\res\\values-cs\\strings.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\core\\src\\main\\res\\values-cs\\strings.xml",
                     "from": {
                         "startLines": "30,21,31,32,33,34,35,23,24,22,36,25,26,27,28,29,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

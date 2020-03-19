@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DEFAULT_NOTIFICATION_TEXT_STYLE">BLACK_TEXT</string>
+</resources>

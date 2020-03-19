@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wetter notification</string>
+    <string name="auto_location">Automatisch erkennen</string>
+    <string name="auto_location_summary_off">Ort manuell festlegen</string>
+    <string name="auto_location_summary_on">Ort automatisch erkennen</string>
+    <string name="builtin_skin">Default Skin</string>
+    <string name="builtin_skin_preferences">Default Skin Einstellungen</string>
+    <string name="celsius">Celsius</string>
+    <string name="celsius_and_fahrenheit">Celsius(Fahrenheit)</string>
+    <string name="condition_clouds_broken">Aufgerissene Bewölkung</string>
+    <string name="condition_clouds_clear">Klarer Himmel</string>
+    <string name="condition_clouds_few">Ein paar Wolken</string>
+    <string name="condition_clouds_overcast">Wolkenbedeckt</string>
+    <string name="condition_clouds_scattered">Aufgelockerte Bewölkung</string>
+    <string name="condition_cold">Kalt</string>
+    <string name="condition_drizzle">Nieseln</string>
+    <string name="condition_drizzle_heavy">Schwarzes Nieseln</string>
+    <string name="condition_drizzle_light">Leichtes Nieseln</string>
+    <string name="condition_drizzle_rain">Nieselregen</string>
+    <string name="condition_drizzle_rain_heavy">Schwerer Nieselregen</string>
+    <string name="condition_drizzle_rain_light">Leichter Nieselregen</string>
+    <string name="condition_drizzle_shower">Nieselschauer</string>
+    <string name="condition_fog">Nebel</string>
+    <string name="condition_hail">Hagel</string>
+    <string name="condition_haze">Dunst</string>
+    <string name="condition_hot">Heiß</string>
+    <string name="condition_hurricane">Hurrikan</string>
+    <string name="condition_mist">Trüb</string>
+    <string name="condition_rain">Regen</string>
+    <string name="condition_rain_extreme">Starkregen</string>
+    <string name="condition_rain_freezing">Eisregen</string>
+    <string name="condition_rain_heavy">Schwerer Regen</string>
+    <string name="condition_rain_light">Leichter Regen</string>
+    <string name="condition_rain_shower">Regenschauer</string>
+    <string name="condition_rain_shower_heavy">Schwere Regenschauer</string>
+    <string name="condition_rain_shower_light">Leichte Regenschauer</string>
+    <string name="condition_rain_very_heavy">Sehr starker Regen</string>
+    <string name="condition_sand_whirls">Sand/Staubsturm</string>
+    <string name="condition_sleet">Graupel</string>
+    <string name="condition_smoke">Rauch</string>
+    <string name="condition_snow">Schnee</string>
+    <string name="condition_snow_heavy">Schwrer Schneefall</string>
+    <string name="condition_snow_light">Leichter Schneefall</string>
+    <string name="condition_snow_shower">Schneeregen</string>
+    <string name="condition_thunderstorm">Gewitter</string>
+    <string name="condition_thunderstorm_drizzle">Gewitter mit Nieselregen</string>
+    <string name="condition_thunderstorm_drizzle_heavy">Gewitter mit starkem Nieselregen</string>
+    <string name="condition_thunderstorm_drizzle_light">Gewitter mit leichtem Nieselregen</string>
+    <string name="condition_thunderstorm_heavy">Schwere Gewitter</string>
+    <string name="condition_thunderstorm_light">Leichte Gewitter</string>
+    <string name="condition_thunderstorm_ragged">Einige Gewitter</string>
+    <string name="condition_thunderstorm_rain">Gewitter mit Regen</string>
+    <string name="condition_thunderstorm_rain_heavy">Gewitter mit schwerem Regen</string>
+    <string name="condition_thunderstorm_rain_light">Gewitter mit leichtem Regen</string>
+    <string name="condition_tornado">Tornado</string>
+    <string name="condition_tropical_storm">Tropensturm</string>
+    <string name="condition_windy">Windig</string>
+    <string name="enable_notification">Notification aktiv</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="fahrenheit_and_celsius">Fahrenheit(Celsius)</string>
+    <string name="forecast_day_format">%ta</string>
+    <string formatted="false" name="forecast_text">%ta: %s/%s</string>
+    <string formatted="false" name="humidity_caption">Luftfeuchtigkeit: %d%%</string>
+    <string name="location">Ort</string>
+    <string name="location_disabled">Dieser Ort Nachweisverfahren wird in den Geräteeinstellungen deaktiviert.
+\nSoll Einstellungen zu öffnen, um es zu aktivieren?</string>
+    <string name="location_gps">Von GPS-Satelliten</string>
+    <string name="location_manual">Manuell</string>
+    <string name="location_network">Von Mobilfunk-oder Wi-Fi-Netzwerk</string>
+    <string name="location_type">Detect Standort</string>
+    <string name="manual_location">Ort</string>
+    <string name="notification">Notification</string>
+    <string formatted="false" name="notification_content_text">%s/%s   %s   %s</string>
+    <string formatted="false" name="notification_content_title">%s   %s</string>
+    <string name="notification_forecast_style">Vorhersage anzeigen</string>
+    <string name="notification_icon_style">Wettericon anzeigen</string>
+    <string name="notification_style">Benachrichtigungsstil</string>
+    <string name="notification_style_black_text">Schwarzer Text</string>
+    <string name="notification_style_custom">Angepasst</string>
+    <string name="notification_style_standard">Standard</string>
+    <string name="notification_style_white_text">Weißer Text</string>
+    <string name="notification_text_style">Notification Textfarbe</string>
+    <string formatted="false" name="notification_ticker">%s %s</string>
+    <string name="open_settings">Offen Einstellungen</string>
+    <string name="refresh_12h">Alle 12 Stunden</string>
+    <string name="refresh_15m">Alle 15 Minuten</string>
+    <string name="refresh_1d">Täglich</string>
+    <string name="refresh_1h">Jede Stunde</string>
+    <string name="refresh_2h">Alle 2 Stunden</string>
+    <string name="refresh_30m">Alle 30 Minuten</string>
+    <string name="refresh_3h">Alle 3 Stunden</string>
+    <string name="refresh_4h">Alle 4 Stunden</string>
+    <string name="refresh_6h">Alle 6 Stunden</string>
+    <string name="refresh_interval">Aktualisierungsintervall</string>
+    <string name="skin">Skin</string>
+    <string name="skin_tap_to_config">Antippen zum konfigurieren</string>
+    <string name="skins">Skins</string>
+    <string name="skins_install">Skins installieren</string>
+    <string name="skins_install_notice">Für eine bessere Bedienung SOLLTEN SKINS INSTALLIERT WERDEN. Bitte wählen Sie unten \"Skins installieren\".</string>
+    <string name="skins_install_notice_no_market">Für eine bessere Bedienung SOLLTEN SKINS INSTALLIERT WERDEN. Suchen Sie nach \"Weather Notification Skin\" Apps im Android Market und installieren Sie diese.</string>
+    <string name="skins_preferences">Skin Einstellungen</string>
+    <string name="start_update_service_permission">Wetteraktualisierungsdienst starten</string>
+    <string name="start_update_service_permission_description">Der App erlauben den Wetteraktualisierungsdienst zu starten um neue Wettermeldungen zu empfangen.</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="temp_unit">Temperatureinheit</string>
+    <string name="unknown_weather">Wetter unbekannt</string>
+    <string formatted="false" name="update_date_format">%ta, %&lt;td.%&lt;tm.%&lt;tY</string>
+    <string formatted="false" name="update_time_format">%ta, %&lt;td.%&lt;tm.%&lt;tY %&lt;tH:%&lt;tM</string>
+    <string formatted="false" name="update_time_short">%tH:%&lt;tM</string>
+    <string name="weather">Wetter</string>
+    <string name="weather_update_empty">Keine Wettermeldungen für \"%s\"</string>
+    <string name="weather_update_failed">Aktualisierung der Wettermeldung gescheitert: %s</string>
+    <string name="weather_update_no_network">Aktualisierung gescheitert: Keine Netzwerkverbindung</string>
+    <string name="weather_update_unknown_location">Aktualisierung gescheitert: Ort unbekannt</string>
+    <string formatted="false" name="wind_caption">Wind: %s, %d %s</string>
+    <string name="wind_dir_e">O</string>
+    <string name="wind_dir_ene">ONO</string>
+    <string name="wind_dir_ese">OSO</string>
+    <string name="wind_dir_n">N</string>
+    <string name="wind_dir_ne">NO</string>
+    <string name="wind_dir_nne">NNO</string>
+    <string name="wind_dir_nnw">NNW</string>
+    <string name="wind_dir_nw">NW</string>
+    <string name="wind_dir_s">S</string>
+    <string name="wind_dir_se">SO</string>
+    <string name="wind_dir_sse">SSO</string>
+    <string name="wind_dir_ssw">SSW</string>
+    <string name="wind_dir_sw">SW</string>
+    <string name="wind_dir_w">W</string>
+    <string name="wind_dir_wnw">WNW</string>
+    <string name="wind_dir_wsw">WSW</string>
+    <string name="wind_speed_unit">Windgeschwindigkeit</string>
+    <string name="wind_speed_unit_kmph">km/h</string>
+    <string name="wind_speed_unit_mph">mph</string>
+    <string name="wind_speed_unit_mps">m/s</string>
+</resources>

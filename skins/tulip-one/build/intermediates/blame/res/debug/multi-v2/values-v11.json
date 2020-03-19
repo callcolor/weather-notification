@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\tulip-one\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\tulip-one\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

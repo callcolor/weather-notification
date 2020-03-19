@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\bigger-text\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\bigger-text\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,7,13,19,23",
                         "startColumns": "4,4,4,4,4",

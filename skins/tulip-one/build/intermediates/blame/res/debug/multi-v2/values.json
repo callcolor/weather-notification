@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\tulip-one\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\tulip-one\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,7,12,16,20,24,28,34,40,45,50,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,153,159,163,166,170,173,179,182,185,189,195,199,203,210,214,219,223,227,232",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libpreference\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\libs\\libpreference\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
@@ -37,6 +37,23 @@
                         "startOffsets": "9323,9381",
                         "endColumns": "57,56",
                         "endOffsets": "9376,9433"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\tulip-one\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "22,23,24",
+                        "startColumns": "1,4,4",
+                        "startOffsets": "850,925,974",
+                        "endColumns": "71,48,67",
+                        "endOffsets": "920,969,1037"
+                    },
+                    "to": {
+                        "startLines": "88,160,161",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4277,9071,9120",
+                        "endColumns": "74,48,67",
+                        "endOffsets": "4347,9115,9183"
                     }
                 },
                 {
@@ -56,23 +73,6 @@
                         "endLines": "50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,163,193,197,198,202,203,290,291,298,341,373,410,417",
                         "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "1980,2043,2101,2175,2245,2313,2385,2455,2516,2590,2663,2724,2785,2847,2911,2973,3034,3102,3202,3262,3328,3401,3470,3527,3579,3641,3713,3789,3824,3859,3909,3970,4027,4061,4096,4131,4201,9318,10983,11184,11294,11495,11624,15741,15808,16106,19012,21077,22837,23214"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\tulip-one\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "22,23,24",
-                        "startColumns": "1,4,4",
-                        "startOffsets": "850,925,974",
-                        "endColumns": "71,48,67",
-                        "endOffsets": "920,969,1037"
-                    },
-                    "to": {
-                        "startLines": "88,160,161",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "4277,9071,9120",
-                        "endColumns": "74,48,67",
-                        "endOffsets": "4347,9115,9183"
                     }
                 }
             ]

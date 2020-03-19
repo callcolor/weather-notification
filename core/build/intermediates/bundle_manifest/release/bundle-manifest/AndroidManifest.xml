@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2010—2016 Denis Nelubin and others.
+  ~
+  ~ This file is part of Weather Notification.
+  ~
+  ~ Weather Notification is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Weather Notification is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Weather Notification.  If not, see http://www.gnu.org/licenses/.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.gelin.android.weather.notification"
+    android:versionCode="55"
+    android:versionName="0.3.11" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <permission
+        android:name="ru.gelin.android.weather.notification.START_UPDATE_SERVICE"
+        android:description="@string/start_update_service_permission_description"
+        android:label="@string/start_update_service_permission"
+        android:permissionGroup="android.permission-group.DEVELOPMENT_TOOLS"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="ru.gelin.android.weather.notification.START_UPDATE_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="ru.gelin.android.weather.notification.app.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.gelin.android.weather.notification.ACTION_START_MAIN_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.gelin.android.weather.notification.app.MainActivity2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="ru.gelin.android.weather.notification.app.MainActivity4"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="ru.gelin.android.weather.notification.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoDisplay" >
+        </activity>
+        <activity android:name="ru.gelin.android.weather.notification.app.DebugActivity" />
+
+        <service
+            android:name="ru.gelin.android.weather.notification.app.UpdateService"
+            android:permission="ru.gelin.android.weather.notification.START_UPDATE_SERVICE" >
+            <intent-filter>
+                <action android:name="ru.gelin.android.weather.notification.ACTION_START_UPDATE_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="ru.gelin.android.weather.notification.app.BootCompletedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.gelin.android.weather.notification.app.NetworkConnectivityReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.gelin.android.weather.notification.app.ExternalAppsAvailableReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.gelin.android.weather.notification.app.PackageChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Built-in skin -->
+
+        <receiver
+            android:name="ru.gelin.android.weather.notification.skin.builtin.SkinWeatherNotificationReceiver"
+            android:label="@string/builtin_skin" >
+            <intent-filter>
+                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="ru.gelin.android.weather.notification.skin.builtin.SkinConfigActivity"
+            android:label="@string/builtin_skin_preferences" >
+            <intent-filter>
+                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.gelin.android.weather.notification.skin.builtin.WeatherInfoActivity"
+            android:label="@string/weather"
+            android:theme="@style/Theme.Dialog" />
+    </application>
+
+</manifest>

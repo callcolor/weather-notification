@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\bigger-text\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\bigger-text\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\skins\\bigger-text\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "22,23,24",
+                        "startColumns": "1,4,4",
+                        "startOffsets": "850,926,976",
+                        "endColumns": "72,49,68",
+                        "endOffsets": "921,971,1040"
+                    },
+                    "to": {
+                        "startLines": "88,160,161",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4277,9072,9122",
+                        "endColumns": "75,49,68",
+                        "endOffsets": "4348,9117,9186"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\libs\\libweatherskin\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,7,12,16,20,24,28,34,40,45,50,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,153,159,163,166,170,173,179,182,185,189,195,199,203,210,214,219,223,227,232",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\skins\\bigger-text\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "22,23,24",
-                        "startColumns": "1,4,4",
-                        "startOffsets": "850,926,976",
-                        "endColumns": "72,49,68",
-                        "endOffsets": "921,971,1040"
-                    },
-                    "to": {
-                        "startLines": "88,160,161",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "4277,9072,9122",
-                        "endColumns": "75,49,68",
-                        "endOffsets": "4348,9117,9186"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\weather-notification\\libs\\libpreference\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\callcolor\\dev\\weather-notification\\libs\\libpreference\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",

@@ -25,67 +25,67 @@
 25    android:versionName="0.3.7" >
 26
 27    <uses-sdk
-27-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+27-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
 28        android:minSdkVersion="14"
-28-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+28-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
 29        android:targetSdkVersion="26" />
-29-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
+29-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:28:5-16
 30
 31    <uses-permission android:name="ru.gelin.android.weather.notification.START_UPDATE_SERVICE" />
-31-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:26:5-97
-31-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:26:22-95
+31-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:26:5-97
+31-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:26:22-95
 32
 33    <supports-screens />
-33-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:30:5-24
+33-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:30:5-24
 34
 35    <application
-35-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:32:5-58:19
+35-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:32:5-58:19
 36        android:allowBackup="true"
-36-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:36:13-39
+36-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:36:13-39
 37        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
 37-->[com.android.support:support-compat:28.0.0] C:\Users\callcolor\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 38        android:debuggable="true"
 39        android:icon="@drawable/icon"
-39-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:33:13-42
+39-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:33:13-42
 40        android:label="@string/app_name"
-40-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:34:13-45
+40-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:34:13-45
 41        android:process="ru.gelin.android.weather.notification" >
-41-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:35:13-68
+41-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:35:13-68
 42        <receiver
-42-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:38:9-44:20
+42-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:38:9-44:20
 43            android:name="ru.gelin.android.weather.notification.skin.whitetextplus.SkinWeatherNotificationReceiver"
-43-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:39:17-64
+43-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:39:17-64
 44            android:label="@string/skin_name" >
-44-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:40:17-50
+44-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:40:17-50
 45            <intent-filter>
-45-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:41:13-43:29
+45-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:41:13-43:29
 46                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
-46-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:42:17-103
-46-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:42:25-101
+46-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:42:17-103
+46-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:42:25-101
 47            </intent-filter>
 48        </receiver>
 49
 50        <activity
-50-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:46:9-51:20
+50-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:46:9-51:20
 51            android:name="ru.gelin.android.weather.notification.skin.whitetextplus.SkinConfigActivity"
-51-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:46:19-53
+51-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:46:19-53
 52            android:label="@string/skin_preferences" >
-52-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:47:19-59
+52-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:47:19-59
 53            <intent-filter>
-53-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:48:13-50:29
+53-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:48:13-50:29
 54                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
-54-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:49:17-111
-54-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:49:25-109
+54-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:49:17-111
+54-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:49:25-109
 55            </intent-filter>
 56        </activity>
 57        <activity
-57-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:53:9-56:21
+57-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:53:9-56:21
 58            android:name="ru.gelin.android.weather.notification.skin.whitetextplus.WeatherInfoActivity"
-58-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:53:19-54
+58-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:53:19-54
 59            android:label="@string/weather"
-59-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:54:19-50
+59-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:54:19-50
 60            android:theme="@style/Theme.Dialog" />
-60-->C:\Users\callcolor\dev\weather-notification\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:55:19-54
+60-->C:\Users\callcolor\dev\weather-notification\skins\white-text-plus\src\main\AndroidManifest.xml:55:19-54
 61    </application>
 62
 63</manifest>
